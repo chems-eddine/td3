@@ -28,5 +28,9 @@ System.out.println("le cercle c1  : " + c1.toString() +
 System.out.println("le cercle c2  : " + c2.toString() + "périmetre=" + c2.Périmetre(c2.rayon)
 		+ " son image  c2 " + c2.Symetrie(c2.o).toString());
 	}
-
+  /*PointA*/
+	PointA p1=new Point(2,5);
+	PointA p2= new PointA(-8,10);
+	System.out.println(p1.getAbscisse()+","+p1.getOrdonnée());
+	p2.AfficheCoord();
 }
