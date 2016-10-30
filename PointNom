@@ -1,6 +1,6 @@
 public class PointNom extends PointA{
 private String Nom;
-public PointNom(double abscisse, double ordonée, String Nom){
+public PointNom(double abscisse, double ordonnée, String Nom){
 super(abscisse,ordonnée);
 this.Nom=Nom;
 }
