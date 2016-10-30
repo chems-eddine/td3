@@ -1,27 +1,31 @@
 public class point {
 	private double abscisse;
-	private double ordonée;
+	private double ordonÃ©e;
 	
 	public point(){
 		this.abscisse=0;
-		this.ordonée=0;}
+		this.ordonÃ©e=0;}
 	public point(double x){
 		this.abscisse=x;
-		this.ordonée=x;
+		this.ordonÃ©e=x;
 	}
 	public point (double x, double y){
 		this.abscisse=x;
-		this.ordonée=y;
+		this.ordonÃ©e=y;
 	}
 	public double getAbscisse(){
 		return this.abscisse;
 	}
-	public double getOrdonée(){
-		return this.ordonée;
+	public double getOrdonÃ©e(){
+		return this.ordonÃ©e;
+	}
+	public void deplace ( int dx, int dy ){
+	
+	x+=dx;y+=dy;
 	}
 	public String toString(){
-		return "(" + abscisse+ ","+ ordonée +")";
+		return "(" + abscisse+ ","+ ordonÃ©e +")";
 	}
 	public point Symetrie(){
-		return new point(-abscisse,ordonée);
+		return new point(-abscisse,ordonÃ©e);
 	}
