@@ -8,7 +8,7 @@ this.Nom=Nom;
 { return this.Nom;}
 
 
-public void AfficheCoordonnée(){
-System.out.println("le point  "+getNom()+"("+getAbscisse+","+getOrdonnée+")");
+public void AfficheCoord(){
+System.out.println("le point "+getNom()+super.AfficheCoord());
  } }
  
