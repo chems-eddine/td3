@@ -1,6 +1,6 @@
 public class cercle {
 	public point o;
-	public int rayon;
+	public Segment rayon;
 	
 	public cercle(int rayon){
 		o=new point();
