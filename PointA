@@ -1,0 +1,7 @@
+public classe PointA extends Point{
+PointA(double abscisse , double ordonnée){
+super(abscisse ,ordonnée); }
+
+public void AfficheCoor(){
+system.out.println("Cordonné "+getAbscisse+","+getOrdonnée); }
+
